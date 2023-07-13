@@ -238,4 +238,3 @@ systemctl enable httpd
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/cbf65cf8-dd38-4a50-8b98-10ca682385db)
 
 
-
