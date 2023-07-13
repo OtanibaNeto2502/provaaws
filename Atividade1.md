@@ -6,6 +6,7 @@
 * Liberar as portas de comunicação para acesso público: (22/TCP, 111/TCP e UDP, 2049/TCP/UDP, 80/TCP, 443/TCP). 
 ### Codigo de inicialização da maquina virtual!
 * Configuração da instância
+``` js
 {
   "MaxCount": 1,
   "MinCount": 1,
@@ -94,9 +95,10 @@
     "EnableResourceNameDnsAAAARecord": false
   }
 }
-
+```
 * Nova configuração do grupo de segurança
 * Chamada de API: CreateSecurityGroup
+``` js
 {
   "GroupName": "otanibanovo",
   "Description": "launch-wizard-2 created 2023-07-12T13:44:45.311Z",
@@ -189,7 +191,7 @@
     }
   ]
 }
-
+```
 ### Configuração de rede.
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/855c0377-6ff9-448b-bc20-372e0a821337)
 
