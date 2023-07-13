@@ -220,11 +220,11 @@
 Comandos ultilizados:
     
 ``` bash
-sudo yum install httpd
+yum install httpd
 
-sudo systemctl start httpd
+systemctl start httpd
 
-sudo systemctl enable httpd
+systemctl enable httpd
 ```
 ### Verificando se o servidor esta online:
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/752e1178-de1b-4edc-9624-3afb7d6a6767)
