@@ -221,17 +221,15 @@ sudo systemctl start httpd
 
 sudo systemctl enable httpd
 ```
-* Verificando se o servidor esta online:
+### Verificando se o servidor esta online:
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/752e1178-de1b-4edc-9624-3afb7d6a6767)
-  
-* Script para verificação do servidor APACHE
+### Script para verificação do servidor APACHE
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/eaefde30-3519-442e-b6d8-1ca193529ab1)
-* Script para automação do processo de salvamento de log.
-![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/9c669d2d-fa22-4167-94a0-2e7c22d95592)
-      
-* Acessando arquivo de Log.
+### Script para automação do processo de salvamento de log.
+![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/9c669d2d-fa22-4167-94a0-2e7c22d95592)   
+### Acessando arquivo de Log.
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/474563f4-7f16-451d-9c0c-c3c78fb5d495)
-* Arquivo de log.
+### Arquivo de log.
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/cbf65cf8-dd38-4a50-8b98-10ca682385db)
 
 
