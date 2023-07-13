@@ -196,7 +196,7 @@
 }
 ```
 ### Configuração de rede.
-![image](https://github.com/OtanibaNeto2502/prova_linux/imagens/1.png)
+![image](https://github.com/OtanibaNeto2502/provaaws/blob/main/imagens/1.png)
 
 ### Criação do grupo de segurança com o intuito de liberar as portas de comunicação para acesso público: (22/TCP,111/TCP e UDP, 2049/TCP/UDP, 80/TCP, 443/TCP).
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/f606d79d-6d8b-43e7-8a0f-e5fe10ffd7a7)
