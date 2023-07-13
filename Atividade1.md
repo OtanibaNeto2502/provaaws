@@ -1,3 +1,6 @@
+## Autor
+| ![image](https://github.com/OtanibaNeto2502/provaaws/assets/139134335/a5a60dd2-d75b-4d91-bee9-7b0762109519) |
+| :---: |
 ### Inicialização da maquina virtual linux com as configurações determinadas pelo aplicador da avaliação!
 * Requisitos AWS:
 * Gerar uma chave pública para acesso ao ambiente;
