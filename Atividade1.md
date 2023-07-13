@@ -96,8 +96,8 @@
   }
 }
 ```
-* Nova configuração do grupo de segurança
-Chamada de API: CreateSecurityGroup
+### Nova configuração do grupo de segurança
+# Chamada de API: CreateSecurityGroup
 ``` js
 {
   "GroupName": "otanibanovo",
