@@ -1,10 +1,10 @@
-# Inicialização da maquina virtual linux com as configurações determinadas pelo aplicador da avaliação!
+### Inicialização da maquina virtual linux com as configurações determinadas pelo aplicador da avaliação!
 * Requisitos AWS:
 * Gerar uma chave pública para acesso ao ambiente;
 * Criar 1 instância EC2 com o sistema operacional Amazon Linux 2 (Famíliat3.small, 16 GB SSD);
 * Gerar 1 elastic IP e anexar à instância EC2;
 * Liberar as portas de comunicação para acesso público: (22/TCP, 111/TCP e UDP, 2049/TCP/UDP, 80/TCP, 443/TCP). 
-# Codigo de inicialização da maquina virtual!
+### Codigo de inicialização da maquina virtual!
 * Configuração da instância
 {
   "MaxCount": 1,
@@ -190,36 +190,37 @@
   ]
 }
 
-* Configuração de rede.
+### Configuração de rede.
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/855c0377-6ff9-448b-bc20-372e0a821337)
 
-* Criação do grupo de segurança com o intuito de liberar as portas de comunicação para acesso público: (22/TCP,111/TCP e UDP, 2049/TCP/UDP, 80/TCP, 443/TCP).
+### Criação do grupo de segurança com o intuito de liberar as portas de comunicação para acesso público: (22/TCP,111/TCP e UDP, 2049/TCP/UDP, 80/TCP, 443/TCP).
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/f606d79d-6d8b-43e7-8a0f-e5fe10ffd7a7)
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/c1173fc1-f117-4e1f-8a05-57577f04fc44)
 
-* Configuração de armazenameto.
+### Configuração de armazenameto.
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/6d59d871-87c9-4d0d-bef7-d9b12d72d0d7)
 
-* Primeiro Acesso via console AWS.
+### Primeiro Acesso via console AWS.
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/3f5e9336-21d2-49ec-a107-7137e91249e2)
 
-* Criando EFS.
-* ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/66d55988-9bc5-414b-995c-ad1b1c956c62)
-* Alterando security grup do EFS.
+### Criando EFS.
+![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/66d55988-9bc5-414b-995c-ad1b1c956c62)
+### Alterando security grup do EFS.
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/afa5e930-cab1-4972-8c7b-686b03c7e5da)
-* Anexando EFS a instancia!
+### Anexando EFS a instancia!
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/63033f41-8975-4a64-8b44-d5d81b86c701)
-* Criando pasta com o nome otanibaneto dentro do EFS.
+### Criando pasta com o nome otanibaneto dentro do EFS.
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/fcc772d9-c25f-4d21-98be-47c6a4178014)
-* Criando servidor APACHE.
-* Comandos ultilizados:
+### Criando servidor APACHE.
+Comandos ultilizados:
     
-*sudo yum install httpd*
+``` bash
+sudo yum install httpd
 
-*sudo systemctl start httpd*
+sudo systemctl start httpd
 
-*sudo systemctl enable httpd*
-
+sudo systemctl enable httpd
+```
 * Verificando se o servidor esta online:
 ![image](https://github.com/OtanibaNeto2502/prova_linux/assets/139134335/752e1178-de1b-4edc-9624-3afb7d6a6767)
   
